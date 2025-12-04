@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 # ⚙️ الإعدادات
 # ═══════════════════════════════════════════════════════
 
-BOT_TOKEN = os.getenv('BOT_TOKEN', '8192965268:AAHkuM6mGOeLkjBDG7dEasgX72TwotTqFCY')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 CHANNEL_ID = os.getenv('CHANNEL_ID', '@TasbihAlert')
 INTERVAL_SECONDS = int(os.getenv('INTERVAL_SECONDS', 3600))  # ساعة
 
